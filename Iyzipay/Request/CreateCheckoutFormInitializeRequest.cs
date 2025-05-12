@@ -45,5 +45,6 @@ namespace Iyzipay.Request
                 .AppendList("enabledInstallments", EnabledInstallments)
                 .GetRequestString();
         }
+
     }
 }
